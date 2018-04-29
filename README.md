@@ -1,8 +1,6 @@
 # jekyll-uikit
 
-[![GitHub stars](https://img.shields.io/github/stars/jpasholk/jekyll-uikit/shields.svg?style=social&label=Stars)](https://github.com/jpasholk/jekyll-uikit)
-
-![license](https://img.shields.io/github/license/mashape/apistatus.svg) ![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg) [![Gem](https://img.shields.io/gem/dv/rails/stable.svg)](https://rubygems.org/gems/jekyll-uikit)
+![license](https://img.shields.io/github/license/mashape/apistatus.svg) ![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg)
 
 [Live Demo](https://jpasholk.com/jekyll-uikit/)
 
