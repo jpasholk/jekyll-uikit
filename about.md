@@ -8,7 +8,7 @@ bigimg: /assets/img/uikit.jpg
 
 ![Jekyll-UiKit](/Screenshot.png)
 
-Built with [UiKit](https://getuikit.com/){:target="_ blank"} by [YooTheme](https://yootheme.com/){:target="_ blank"}, with an elegant homepage, a blog and archive pages, and lighting fast search with Algolia.
+Built in [UiKit](https://getuikit.com/){:target="_ blank"}, with an elegant homepage, a blog and archive pages, and lighting fast search with Algolia.
 
 # Credits
 
