@@ -2,6 +2,12 @@
 
 ![GitHub issues](https://img.shields.io/github/issues-raw/badges/shields.sv)
 
+![Gem](https://img.shields.io/gem/dt/rails.svg)
+
+![Github All Releases](https://img.shields.io/github/downloads/atom/atom/total.svg)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg)
+
 [Live Demo](https://jpasholk.com/jekyll-uikit/)
 
 ## Home Page
