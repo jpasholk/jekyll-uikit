@@ -2,6 +2,12 @@
 
 ![Jekyll-UiKit](/Screenshot.png)
 
+![Jekyll-UiKit Archives](/docs/Archives-Screenshot.png)
+
+![Jekyll-UiKit Blog](/docs/Blog-Screenshot.png)
+
+![Jekyll-UiKit Features](/docs/Features-Screenshot.png)
+
 Built with [UiKit](https://getuikit.com/) by [YooTheme](https://yootheme.com/), with an elegant homepage, a blog and archive pages, and lighting fast search with Algolia.
 
 # Credits
