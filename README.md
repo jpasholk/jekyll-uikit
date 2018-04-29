@@ -1,12 +1,19 @@
 # jekyll-uikit
 
+[Live Demo](https://jpasholk.com/jekyll-uikit/)
+
+## Home Page
+
 ![Jekyll-UiKit](/Screenshot.png)
 
-![Jekyll-UiKit Archives](/docs/Archives-Screenshot.png)
+## Blog Page
 
 ![Jekyll-UiKit Blog](/docs/Blog-Screenshot.png)
 
-![Jekyll-UiKit Features](/docs/Features-Screenshot.png)
+## Archive Page by Tag
+
+![Jekyll-UiKit Archives](/docs/Archives-Screenshot.png)
+
 
 Built with [UiKit](https://getuikit.com/) by [YooTheme](https://yootheme.com/), with an elegant homepage, a blog and archive pages, and lighting fast search with Algolia.
 
