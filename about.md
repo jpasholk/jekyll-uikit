@@ -4,7 +4,7 @@ title: About Jekyll-UiKit
 bigimg: /assets/img/uikit.jpg
 ---
 
-
+![GitHub forks](https://img.shields.io/github/forks/jpasholk/jekyll-uikit.svg?style=social&label=Fork) ![GitHub stars](https://img.shields.io/github/stars/jpasholk/jekyll-uikit.svg?style=social&label=Stars) ![license](https://img.shields.io/github/license/jpasholk/jekyll-uikit.svg) ![GitHub last commit](https://img.shields.io/github/last-commit/jpasholk/jekyll-uikit.svg) ![GitHub issues](https://img.shields.io/github/issues-raw/jpasholk/jekyll-uikit.svg) [![Gem](https://img.shields.io/gem/dt/jekyll-uikit.svg)](https://rubygems.org/gems/jekyll-uikit) ![GitHub contributors](https://img.shields.io/github/contributors/jpasholk/jekyll-uikit.svg)
 
 ![Jekyll-UiKit](/Screenshot.png)
 
