@@ -10,7 +10,7 @@ bigimg: /assets/img/writer.jpg
     <h2 class="uk-heading-line"><span>Latest Blog Posts</span></h2>
     {% for post in paginator.posts %}
     <div uk-scrollspy="cls:uk-animation-fade; repeat: true; delay: 400">
-      <h4><a class="uk-link-text"href="{{ post.url }}">{{ post.title }}</a></h4>
+      <h4><a class="uk-link-text"href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
 
       <p class="uk-article-meta">
         <span uk-icon="calendar"></span> <span class="date">{{post.date | date: "%b %d, %Y "}} </span>
