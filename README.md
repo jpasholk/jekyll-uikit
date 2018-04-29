@@ -1,6 +1,6 @@
 # jekyll-uikit
 
-[![GitHub stars](https://img.shields.io/github/stars/badges/shields.svg?style=social&label=Stars)](https://github.com/jpasholk/jekyll-uikit) [![Code Climate](https://img.shields.io/codeclimate/issues/twbs/bootstrap.svg)](https://github.com/jpasholk/jekyll-uikit) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/jpasholk/jekyll-uikit) [![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg)](https://github.com/jpasholk/jekyll-uikit) [![Gem](https://img.shields.io/gem/dv/rails/stable.svg)](https://rubygems.org/gems/jekyll-uikit) [Live Demo](https://jpasholk.com/jekyll-uikit/)
+[![GitHub stars](https://img.shields.io/github/stars/badges/shields.svg?style=social&label=Stars)](https://github.com/jpasholk/jekyll-uikit) [![Code Climate](https://img.shields.io/codeclimate/issues/twbs/bootstrap.svg)](https://github.com/jpasholk/jekyll-uikit/issues) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/jpasholk/jekyll-uikit) [![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg)](https://github.com/jpasholk/jekyll-uikit) [![Gem](https://img.shields.io/gem/dv/rails/stable.svg)](https://rubygems.org/gems/jekyll-uikit) [Live Demo](https://jpasholk.com/jekyll-uikit/)
 
 ## Home Page
 
