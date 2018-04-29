@@ -1,6 +1,6 @@
 # jekyll-uikit
 
-[![GitHub forks](https://img.shields.io/github/forks/jpasholk/jekyll-uikit.svg?style=social&label=Fork)](https://github.com/jpasholk/jekyll-uikit#fork-destination-box)
+[![GitHub forks](https://img.shields.io/github/forks/jpasholk/jekyll-uikit.svg?style=social&label=Fork)](https://github.com/jpasholk/jekyll-uikit/network)
 [![GitHub stars](https://img.shields.io/github/stars/jpasholk/jekyll-uikit.svg?style=social&label=Stars)](https://github.com/jpasholk/jekyll-uikit/stargazers)
 [![license](https://img.shields.io/github/license/jpasholk/jekyll-uikit.svg)](https://github.com/jpasholk/jekyll-uikit/blob/master/LICENSE.txt)
 [![GitHub last commit](https://img.shields.io/github/last-commit/jpasholk/jekyll-uikit.svg)](https://github.com/jpasholk/jekyll-uikit/commits/master)
