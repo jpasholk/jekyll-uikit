@@ -1,0 +1,62 @@
+<header>
+  <nav id="nav" class="uk-navbar-container" uk-navbar>
+    <div class="uk-navbar-left">
+      <a href="{{"/" | relative_url}}" class="uk-navbar-item uk-logo">{{site.title}}</a>
+    </div>
+    <div class="uk-navbar-right uk-visible@s">
+      <ul class="uk-navbar-nav">
+        {% include search_box.html %}
+        {% for link in site.data.navigation.main %}
+        {% if link.url contains "http" %}
+          {% assign url = link.url %}
+        {% else %}
+          {% assign url = link.url | relative_url %}
+        {% endif %}
+        <li class="{% if page.url contains {{url}} %}uk-active{% endif %}"><a href="{{ url }}">{{ link.title }}</a></li>
+        {% endfor %}
+        {% for link in site.data.navigation.toggle %}
+        {% if link.url contains "http" %}
+          {% assign url = link.url %}
+        {% else %}
+          {% assign url = link.url | relative_url %}
+        {% endif %}
+        <li class="{% if page.url contains {{url}} %}uk-active{% endif %}">
+          <a href="{{ url }}">{{ link.title }}</a>
+          <div class="uk-navbar-dropdown uk-border-rounded uk-background-muted">
+            <ul class="uk-nav uk-navbar-dropdown-nav">
+              {% for link in site.data.navigation.subnav %}
+                {% if link.url contains "http" %}
+                  {% assign url = link.url %}
+                  {% else %}
+                  {% assign url = link.url | relative_url %}
+                  {% endif %}
+                  <li class="{% if page.url contains {{url}} %}uk-active{% endif %} uk-nav-header"><a href="{{ url }}">{{ link.title }}</a></li>
+              {% endfor %}
+            </ul>
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="uk-navbar-right uk-hidden@s">
+      <ul class="uk-navbar-nav">
+        <li>{% include search_box.html %}</li>
+        <li>
+          <a href="" uk-icon="icon: menu"></a>
+          <div class="uk-navbar-dropdown uk-border-rounded uk-background-muted">
+            <ul class="uk-nav uk-navbar-dropdown-nav uk-text-right" uk-scrollspy="target: > li; cls:uk-animation-slide-right; delay: 300; repeat: true">
+              {% for link in site.data.navigation.mobile %}
+                {% if link.url contains "http" %}
+                  {% assign url = link.url %}
+                  {% else %}
+                  {% assign url = link.url | relative_url %}
+                {% endif %}
+                  <li class="{% if page.url contains {{url}} %}uk-active{% endif %} uk-nav-header"><a href="{{ url }}">{{ link.title }}</a></li>{% unless forloop.last %} <hr> {% endunless %}
+              {% endfor %}
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>

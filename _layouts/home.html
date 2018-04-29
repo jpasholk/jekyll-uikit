@@ -1,0 +1,84 @@
+---
+layout: default
+---
+
+<body>
+  <div class="uk-container-expand">
+
+    <div class="uk-section-default">
+      <div class="uk-section-large uk-light uk-background-fixed uk-background-cover uk-background-center" style="background-image: url({{ "/assets/img/boats.jpg" | relative_url }})">
+        <div class="intro-text uk-container">
+          <h2 class="uk-heading-primary">A Simple, Elegant Jekyll Theme</h2>
+          <div class="uk-grid-match uk-child-width-1-1@m" uk-grid>
+            <div>
+              <h3 class="uk-h4">Create a portfolio website with a blog, tags and an archive page, <br> and Algolia search in about an hour.</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="Features" class="uk-section uk-section-muted">
+      <div class="uk-container">
+        <h2 class="uk-heading-line"><span>Features</span></h2>
+        <div class="uk-grid-match uk-child-width-1-3@s uk-flex" uk-grid uk-scrollspy="target: > div; cls:uk-animation-fade; delay: 200; repeat: true">
+
+          <div>
+            <a class="uk-link-muted" href="https://getuikit.com/" target="_blank">
+            <div uk-scrollspy="target: > div; cls:uk-animation-fade; delay: 400; repeat: true" class="uk-inline uk-margin">
+                <img class="uk-border-rounded" src="{{ "/assets/img/site-build.png" | relative_url }}">
+                <div class="uk-text-center uk-padding-small">
+                  <h4>Built With UiKit</h4> A lightweight and modular front-end framework for developing fast and powerful web interfaces.
+                </div>
+            </div>
+            </a>
+          </div>
+
+          <div>
+            <a class="uk-link-muted" href="" target="_blank">
+            <div uk-scrollspy="target: > div; cls:uk-animation-fade; delay: 400; repeat: true" class="uk-inline uk-margin">
+              <img class="uk-border-rounded" src="{{ "/assets/img/archive-page.png" | relative_url }}">
+              <div class="uk-text-center uk-padding-small">
+                <h4>Tags and Archive page Inlcuded</h4> Tags will automatically fill the tag cloud and archive page when properly listed in front matter.
+              </div>
+            </div>
+              </a>
+          </div>
+
+          <div>
+            <a class="uk-link-muted" href="https://github.com/jpasholk/jpasholk.github.io" target="_blank">
+            <div uk-scrollspy="target: > div; cls:uk-animation-fade; delay: 400; repeat: true" class="uk-inline uk-margin">
+              <img class="uk-border-rounded" src="{{ "/assets/img/search.png" | relative_url }}">
+              <div class="uk-text-center uk-padding-small">
+                <h4>Algolia Search Ready</h4> Use Algolia's instant search! It's insanely fast and pretty easy to set up and configure.
+              </div>
+            </div>
+              </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div id="Connect" class="uk-section uk-section-secondary">
+      <div uk-scrollspy="target: > div; cls:uk-animation-fade; delay: 400; repeat: true" class="uk-container">
+        <h2 class="uk-heading-line"><span>Connect</span></h2>
+        <div class="uk-grid-match uk-child-width-1-1@m" uk-grid>
+          <div>
+            <p>
+              Jekyll-UiKit is a labor of <span uk-icon="icon: heart"></span> and coffee.
+              <br><br>
+              Speaking of coffee, if you like this theme, and are feeling like a super awesome person, you can <a href="https://www.buymeacoffee.com/jpasholk">buy me a coffee</a>!
+              <br><br>
+              I built it in my free time on weekends and early mornings before my day job. Please feel free to use it under the MIT licence however you'd like. Let me know if you have any questions about it, I'll do my best to help.
+              <br><br>
+              I enjoy talking about UI/ UX design, content and branding stratgegy, and creative direction.
+              <br><br>
+              Feel free to reach out on <a href="https://twitter.com/{{site.twitter}}">Twitter</a>. ;P
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>

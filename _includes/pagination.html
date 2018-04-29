@@ -1,0 +1,24 @@
+<div class="pagination uk-link-muted">
+  <br>
+  <ul class="uk-pagination uk-child-width-expand">
+    {% if paginator.previous_page %}
+    <li><a href="{{ paginator.previous_page_path }}"><span class="uk-margin-small-right" uk-pagination-previous></span> Previous</a></li> {% else %}
+    <li><a href="{{"/" | relative_url}}"><span class="uk-margin-small-right" uk-icon="home"> </span>Home</a></li>
+    {% endif %}
+    <span class="uk-flex uk-flex-center">
+      <li>{{paginator.page}} of {{paginator.total_pages}}</li>
+    </span>
+    {% if paginator.next_page %}
+    <div class="uk-flex uk-flex-right">
+      <li class="uk-margin-auto-left"><a href="{{ paginator.next_page_path }}">Next <span class="uk-margin-small-left" uk-pagination-next></span></a></li>
+    </div>
+    {% else %}
+    <div class="uk-flex uk-flex-right">
+    <li class="uk-margin-auto-left">
+      <a href="https://twitter.com/{{site.twitter}}" target="_blank">Follow<span uk-icon="twitter" class="uk-margin-small-left"></span></a>
+    </li>
+    </div>
+    {% endif %}
+  </ul>
+  <hr class="uk-divider-icon">
+</div>

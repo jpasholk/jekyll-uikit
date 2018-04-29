@@ -1,0 +1,17 @@
+{% if site.algolia %}
+<div class="uk-navbar-item">
+  <a class="uk-icon-button" uk-icon="icon: search" href="#modal-full" uk-toggle></a>
+    <div id="modal-full" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-default" type="button" uk-close></button>
+            <div class="uk-modal-header">
+              <div id="search-searchbar"> </div>
+            </div>
+            <div class="uk-modal-body" uk-overflow-auto>
+              <div id="search-hits" class="uk-section uk-padding-remove-top post-list">
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}

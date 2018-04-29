@@ -1,0 +1,82 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="author" href="{{ site.author }}">
+  <link rel="publisher" href="{{ site.name }}">
+  <meta itemprop="name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta itemprop="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta itemprop="image" content="{{ page.bigimg }}">
+
+  <meta name="theme-color" content="#2e353f">
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="robots" content="index,follow">
+  <meta name="googlebot" content="index,follow">
+  <meta name="generator" content="jekyll">
+  <meta name="rating" content="General">
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="x-dns-prefetch-control" content="on">
+
+  <!-- Facebook Open Graph -->
+  <meta property="fb:app_id" content="{{ site.fb_app_id }}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url | replace:'index.html',''}}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:image" content="{% if page.bigimg %}{{ site.url }}{{ page.bigimg }}{% else %}{{ site.url }}{{ "/assets/img/alaska-glacier-1.jpg" }}{% endif %}">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:site_name" content="{{ site.name }}">
+  <meta property="og:locale" content="{{ site.locale }}">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@{{ site.twitter }}">
+  <meta name="twitter:creator" content="@{{ site.twitter }}">
+  <meta name="twitter:url" content="{{ site.url }}{{ page.url | replace:'index.html',''}}">
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:image" content="{% if page.bigimg %}{{ site.url }}{{ page.bigimg }}{% else %}{{ site.url }}{{ "/Screenshot.png" }}{% endif %}">
+  <meta name="twitter:dnt" content="on">
+
+  <!-- Preloading is not currently supported by any browser at the moment, the idea behind it is certainly interesting.
+  <link rel="preload" href="image.png" as="image">
+  -->
+
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+  <base href="{{site.baseurl}}">
+
+  <!-- Prefetching, preloading, prebrowsing -->
+  <!-- More info: https://css-tricks.com/prefetching-preloading-prebrowsing/ -->
+  <link rel="dns-prefetch" href="{{site.baseurl | remove: "https:" }}">
+  <link rel="preconnect" href="{{site.baseurl}}">
+  <link rel="prefetch" href="{{site.baseurl}}">
+  <link rel="prerender" href="{{site.baseurl}}">
+  <link href="{{site.avatar}}" rel="shortcut icon">
+  <link href="/assets/apple-touch-icon.png" rel=”apple-touch-icon”>
+  <!-- https://gist.github.com/bennylope/1894706 -->
+  <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
+  <link rel="license" href="{{ /LICENCE | relative_url }}">
+  <link rel="alternate" href="https://es.example.com/" hreflang="{{ site.lang }}">
+  <!-- https://validator.w3.org/feed/ -->
+  <link href="{{ "/feed.xml" | relative_url }}" type="application/rss+xml" rel="alternate" title="Latest 10 blog posts (atom)">
+  <!-- UiKit CSS -->
+  <link rel="stylesheet" href="{{ "/assets/css/uikit.min.css" | relative_url }}">
+  <!-- syntax highlighting CSS -->
+   <link rel="stylesheet" href="{{ "/assets/css/syntax.css" | relative_url }}" type="text/css">
+  <!-- UiKit Javascript -->
+  <script type="text/javascript" src="{{ "/assets/js/uikit.min.js " | relative_url }}"></script>
+  <script type="text/javascript" src="{{ "/assets/js/uikit-icons.min.js " | relative_url }}"></script>
+  {% include google_analytics.html %}
+  <style>
+    .intro-text {
+      text-shadow: 1px 1px 2px black;
+    }
+    blockquote {
+      border-left: 5px solid #ccc;
+      background: #f9f9f9;
+      border-radius: 0px 4px 4px 0px;
+      padding: 5px 10px;
+    }
+  </style>
+</head>

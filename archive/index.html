@@ -1,0 +1,29 @@
+---
+layout: archive
+title: Post Archive
+---
+
+<div id="Archive" class="uk-section uk-padding-remove-top" uk-scrollspy="cls:uk-animation-fade; repeat: true; delay: 100">
+
+    {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+    {% assign sortedTags = site_tags | split:',' | sort %}
+
+  <article class="uk-article uk-padding-xsmall">
+    <h2>Posts by tag</h2>
+    {% for tag in sortedTags %}
+    <div uk-scrollspy="cls:uk-animation-fade; repeat: true; delay: 600">
+      <h3 id="{{tag | cgi_escape}}" class="uk-heading-line tag-name"><span>{{tag}}</span></h3>
+        <ul class="uk-list tag-list">
+        {% for post in site.tags[tag] %}
+          <li>
+            <span class="uk-article-meta" uk-icon="calendar"></span> <time class="uk-article-meta" itemprop="dateCreated" datetime="{{post.date}}">{{post.date | date: "%b %d, %Y "}}</time> <a href="{{site.baseurl}}{{post.url}}" rel="bookmark" title="Link to {{site.baseurl}}{{post.url}}">{{post.title}}</a>
+          </li>
+        {% endfor %}
+        </ul>
+      </div>
+    {% endfor %}
+    </article>
+    <br>
+    {% include buymeacoffee.html %}
+
+</div>

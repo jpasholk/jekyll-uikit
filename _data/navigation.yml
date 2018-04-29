@@ -1,0 +1,25 @@
+# If you want to link only specific pages in your header, add the path to the
+# pages in order as they should show up.
+main:
+  - title: "About"
+    url: /about
+  - title: "Features"
+    url: /index.html#Features
+
+toggle:
+  - title: "Blog"
+    url: /blog
+
+subnav:
+  - title: "Archives"
+    url: /archive
+
+mobile:
+  - title: "About"
+    url: /about
+  - title: "Features"
+    url: /index.html#Features
+  - title: "Blog"
+    url: /blog
+  - title: "Archive"
+    url: /archive

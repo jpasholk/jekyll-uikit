@@ -1,0 +1,11 @@
+<span>
+  {% if site.twitter %}
+  <a href="https://twitter.com/{{site.twitter}}" class="uk-icon-button" uk-icon="twitter" uk-tooltip="title: Twitter" target="_blank"></a>
+  {% endif %}
+  {% if site.github %}
+  <a href="https://github.com/{{site.github}}" class="uk-icon-button" uk-icon="github" uk-tooltip="title: GitHub" target="_blank"></a>
+  {% endif %}
+  {% if site.RSS %}
+  <a href="{{ "/feed.xml" | relative_url }}" class="uk-icon-button" uk-icon="rss" uk-tooltip="title: RSS Feed" target="_blank"></a>
+  {% endif %}
+</span>

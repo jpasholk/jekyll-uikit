@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<div class="uk-container-expand">
+  <div id="page" class="uk-section-default uk-padding-xsmall">
+    {% if page.bigimg %}
+    <div class="uk-section uk-light uk-background-fixed uk-background-cover uk-background-top-left" style="background-image: url({{ page.bigimg | relative_url }})">
+      <div class="intro-text uk-container uk-padding-large">
+        <h3 class="uk-heading-primary">{{page.title}}</h3>
+        <p class="uk-article-meta">
+          {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+          {% assign sortedTags=site_tags | split:',' | sort %}
+          <span uk-icon="tag"></span>
+
+            {% for tag in sortedTags %}
+            <span class="tags">
+              <a href="#{{tag | cgi_escape}}" uk-scroll>{{ tag }} [{{ site.tags[tag].size }}]</a>
+              {% unless forloop.last %}, {% endunless %}
+            </span>
+            {% endfor %}
+        </p>
+      </div>
+    </div>
+    {% else %}
+    <div class="uk-section-xsmall">
+      <div class="uk-container uk-padding-large uk-padding-remove-bottom">
+        <h3 class="uk-heading-primary">{{page.title}}</h3>
+        <h2>Tags</h2>
+        <p class="uk-article-meta">
+          {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+          {% assign sortedTags = site_tags | split:',' | sort %}
+          <span uk-icon="tag"></span>
+            {% for tag in sortedTags %}
+            <span class="tags">
+              <a href="#{{tag | cgi_escape}}" uk-scroll>{{ tag }} [{{ site.tags[tag].size }}]</a>
+              {% unless forloop.last %} | {% endunless %}
+            </span>
+            {% endfor %}
+        </p>
+      </div>
+    </div>
+    <hr class="uk-divider-icon">
+    {% endif %}
+  </div>
+  <div class="uk-section uk-container uk-padding-large uk-padding-remove-top">
+    <article class="uk-article">
+      {{content}}
+    </article>
+  </div>
+</div>

@@ -1,0 +1,106 @@
+{% if site.algolia %}
+<!-- Including InstantSearch.js library and styling -->
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch-theme-algolia.min.css">
+
+<script>
+
+// Instanciating InstantSearch.js with Algolia credentials
+const search = instantsearch({
+  appId: '{{ site.algolia.application_id }}',
+  indexName: '{{ site.algolia.index_name }}',
+  apiKey: '{{ site.algolia.search_only_api_key }}'
+});
+
+const hitTemplate = function(hit) {
+  let date = '';
+  if (hit.date) {
+    date = moment.unix(hit.date).format('MMM D, YYYY');
+  }
+
+  let url = `{{ site.baseurl }}${hit.url}#${hit.anchor}`;
+
+  const title = hit._highlightResult.title.value;
+
+  let breadcrumbs = '';
+  if (hit._highlightResult.headings) {
+    breadcrumbs = hit._highlightResult.headings.map(match => {
+      return `<span class="post-breadcrumb">${match.value}</span>`
+    }).join(' > ')
+  }
+
+  const content = hit._highlightResult.html.value;
+
+  return `
+  <div class="post-item">
+    <h3 class="uk-heading-line post-link""><a class="uk-link-text" href="${url}">${title}</a></h3>
+    <span uk-icon="calendar"></span> <span class="uk-article-meta post-meta">${date}</span><br>
+    {{#breadcrumbs}}<a href="${url}" class="post-breadcrumbs">${breadcrumbs}</a>{{/breadcrumbs}}<br>
+    <div class="content">
+      <div class="post-snippet">${content}</div>
+    </div>
+  </div>
+  `;
+}
+
+
+search.addWidget(
+  instantsearch.widgets.searchBox({
+    container: '#search-searchbar',
+    placeholder: 'Search your feelings...',
+    poweredBy: true // This is required if you're on the free Community plan
+  })
+);
+
+search.addWidget(
+  instantsearch.widgets.hits({
+    container: '#search-hits',
+    templates: {
+      item: hitTemplate
+    }
+  })
+);
+
+search.start();
+</script>
+
+<style>
+.ais-search-box {
+  max-width: 98%;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+.post-item {
+  margin-bottom: 30px;
+}
+.post-link .ais-Highlight {
+  color: #1e87f0;
+  font-style: normal;
+  text-decoration: underline;
+}
+.post-breadcrumbs {
+  padding-top: 15px;
+  color: #424242;
+  display: block;
+}
+.post-breadcrumb {
+  font-size: 18px;
+  color: #424242;
+}
+.post-breadcrumb .ais-Highlight {
+  color: #1e87f0;
+  font-weight: bold;
+  font-style: normal;
+}
+.post-snippet .ais-Highlight {
+  color: #1e87f0;
+  font-style: normal;
+  font-weight: bold;
+}
+.post-snippet img {
+  display: none;
+}
+</style>
+{% endif %}
