@@ -1,5 +1,7 @@
 # jekyll-uikit
 
+![GitHub issues](https://img.shields.io/github/issues-raw/badges/shields.sv)
+
 [Live Demo](https://jpasholk.com/jekyll-uikit/)
 
 ## Home Page
