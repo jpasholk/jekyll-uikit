@@ -8,7 +8,7 @@ bigimg: /assets/img/uikit.jpg
 
 ![Jekyll-UiKit](/Screenshot.png)
 
-Built with [UiKit](https://getuikit.com/){:target="_ blank"} by [YooTheme](https://yootheme.com/){:target="_ blank"}, with an elegant homepage, a blog and archive pages, and lighting fast search with Algolia. 
+Built with [UiKit](https://getuikit.com/){:target="_ blank"} by [YooTheme](https://yootheme.com/){:target="_ blank"}, with an elegant homepage, a blog and archive pages, and lighting fast search with Algolia.
 
 # Credits
 
@@ -26,11 +26,9 @@ This theme wouldn't have been made possible if it wasn't for:
 
 * [David Darnes's Alembic Jekyll Theme](https://github.com/daviddarnes/alembic){:target="_ blank"}
 
-* [Algolia Search](https://www.freecodecamp.org/){:target="_ blank"}
+* [Algolia Search](https://www.algolia.com/){:target="_ blank"}
 
 * [James Williamson's Jekyll series on lynda.com](https://www.lynda.com/Jekyll-tutorials/Jekyll-Web-Designers/383124-2.html){:target="_ blank"}
-
-* [Algolia Search](https://www.freecodecamp.org/){:target="_ blank"}
 
 * [Shopify's Liquid Templating language](https://help.shopify.com/themes/liquid){:target="_ blank"}
 
