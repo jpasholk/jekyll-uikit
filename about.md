@@ -42,4 +42,6 @@ This theme wouldn't have been made possible if it wasn't for:
 
 * [StackOverflow](https://stackoverflow.com/search?q=Jekyll){:target="_ blank"} where would we be without StackOverflow?
 
+* [unDraw.co](https://undraw.co) and [Unsplash](https://unsplash.com) for the awesome images used around the site.
+
 * [Michael Woolweaver](https://github.com/mwoolweaver){:target="_ blank"} - a good friend of mine who gave me a nudge in the right direction.
