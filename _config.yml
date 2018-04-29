@@ -51,7 +51,7 @@ paginate: 5
 
 
 # 4. Jekyll settings
-permalink: /blog/:year/:month/:day/:title/
+permalink: /jekyll-uikit/blog/:year/:month/:day/:title/
 excerpt_separator: "<!--more-->"
 timezone: America/Los_Angeles # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
