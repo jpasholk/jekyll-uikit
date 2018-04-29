@@ -23,7 +23,7 @@ bigimg: /assets/img/writer.jpg
 
         <div class="content">
           {{ post.excerpt | strip_html }}
-          <br><a href="{{ post.url | relative_url }}" class="post-read-more">[Read&nbsp;More]</a><br>
+          <br><a href="{{ post.url }}" class="post-read-more">[Read&nbsp;More]</a><br>
           {% unless forloop.last %}
           <hr>
           {% endunless %}
