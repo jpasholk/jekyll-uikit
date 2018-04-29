@@ -20,11 +20,9 @@ This theme wouldn't have been made possible if it wasn't for:
 
 * [David Darnes's Alembic Jekyll Theme](https://github.com/daviddarnes/alembic)
 
-* [Algolia Search](https://www.freecodecamp.org/)
+* [Algolia Search](https://www.algolia.com/)
 
 * [James Williamson's Jekyll series on lynda.com](https://www.lynda.com/Jekyll-tutorials/Jekyll-Web-Designers/383124-2.html)
-
-* [Algolia Search](https://www.freecodecamp.org/)
 
 * [Shopify's Liquid Templating language](https://help.shopify.com/themes/liquid)
 
