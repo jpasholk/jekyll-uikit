@@ -52,8 +52,8 @@
   <link rel="preconnect" href="{{site.baseurl}}">
   <link rel="prefetch" href="{{site.baseurl}}">
   <link rel="prerender" href="{{site.baseurl}}">
-  <link href="{{site.avatar}}" rel="shortcut icon">
-  <link href="/assets/apple-touch-icon.png" rel=”apple-touch-icon”>
+  <link href="{{ {{site.avatar}} | relative_url}}" rel="shortcut icon">
+  <link href="{{ "/assets/apple-touch-icon.png" | relative_url}}" rel=”apple-touch-icon”>
   <!-- https://gist.github.com/bennylope/1894706 -->
   <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
   <link rel="license" href="{{ /LICENCE | relative_url }}">
