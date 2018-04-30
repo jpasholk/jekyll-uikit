@@ -7,7 +7,7 @@
       <ul class="uk-navbar-nav">
         {% include search_box.html %}
         {% for link in site.data.navigation.main %}
-        {% if link.url contains "http" %}
+        {% if link.url contains "https" %}
           {% assign url = link.url %}
         {% else %}
           {% assign url = link.url | relative_url %}
@@ -15,7 +15,7 @@
         <li class="{% if page.url contains {{url}} %}uk-active{% endif %}"><a href="{{ url }}">{{ link.title }}</a></li>
         {% endfor %}
         {% for link in site.data.navigation.toggle %}
-        {% if link.url contains "http" %}
+        {% if link.url contains "https" %}
           {% assign url = link.url %}
         {% else %}
           {% assign url = link.url | relative_url %}
@@ -25,7 +25,7 @@
           <div class="uk-navbar-dropdown uk-border-rounded uk-background-muted">
             <ul class="uk-nav uk-navbar-dropdown-nav">
               {% for link in site.data.navigation.subnav %}
-                {% if link.url contains "http" %}
+                {% if link.url contains "https" %}
                   {% assign url = link.url %}
                   {% else %}
                   {% assign url = link.url | relative_url %}
@@ -46,7 +46,7 @@
           <div class="uk-navbar-dropdown uk-border-rounded uk-background-muted">
             <ul class="uk-nav uk-navbar-dropdown-nav uk-text-right" uk-scrollspy="target: > li; cls:uk-animation-slide-right; delay: 300; repeat: true">
               {% for link in site.data.navigation.mobile %}
-                {% if link.url contains "http" %}
+                {% if link.url contains "https" %}
                   {% assign url = link.url %}
                   {% else %}
                   {% assign url = link.url | relative_url %}
