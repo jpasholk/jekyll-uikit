@@ -1,5 +1,9 @@
 # jekyll-uikit
 
+### https POC
+now archived for reference only
+________
+
 [![GitHub forks](https://img.shields.io/github/forks/jpasholk/jekyll-uikit.svg?style=social&label=Fork)](https://github.com/jpasholk/jekyll-uikit/fork/)
 [![GitHub stars](https://img.shields.io/github/stars/jpasholk/jekyll-uikit.svg?style=social&label=Stars)](https://github.com/jpasholk/jekyll-uikit/stargazers)
 [![license](https://img.shields.io/github/license/jpasholk/jekyll-uikit.svg)](https://github.com/jpasholk/jekyll-uikit/blob/master/LICENSE.txt)
@@ -8,7 +12,7 @@
 [![Gem](https://img.shields.io/gem/dt/jekyll-uikit.svg)](https://rubygems.org/gems/jekyll-uikit)
 [![GitHub contributors](https://img.shields.io/github/contributors/jpasholk/jekyll-uikit.svg)](https://github.com/jpasholk/jekyll-uikit/graphs/contributors)
 
-[Live Demo](https://jpasholk.com/jekyll-uikit/)
+[Live Demo](https://jekyll-uikit.mwoolweaver.us)
 
 ## Home Page
 
