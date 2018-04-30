@@ -8,7 +8,7 @@
 [![Gem](https://img.shields.io/gem/dt/jekyll-uikit.svg)](https://rubygems.org/gems/jekyll-uikit)
 [![GitHub contributors](https://img.shields.io/github/contributors/jpasholk/jekyll-uikit.svg)](https://github.com/jpasholk/jekyll-uikit/graphs/contributors)
 
-[Live Demo](https://jpasholk.com/jekyll-uikit/)
+[Live Demo](https://mwoolweaver.us/jekyll-uikit/)
 
 ## Home Page
 
