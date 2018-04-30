@@ -82,6 +82,18 @@ You can add notification, warning and error boxes like this:
 {: .uk-alert-danger .uk-padding-small}
 **Error:** This is an error box.
 
+### Width Modifier
+
+#### Half
+
+{: .uk-alert-primary .uk-padding-small .uk-width-1-2}
+**Note:** This is a smaller primary box.
+
+#### Third
+
+{: .uk-alert-success .uk-padding-small .uk-width-1-3}
+**Note:** This is a smaller success box.
+
 ## Buttons
 
 {: .uk-button .uk-button-default	}
@@ -121,7 +133,7 @@ Large Secondary Button
 {: .uk-button .uk-button-default .uk-width-1-1 .uk-margin-small-bottom}
 Full Width
 
-{: .uk-button .uk-button-primary .uk-width-1-2 .uk-margin-small-bottom}
+{: .uk-button .uk-button-primary .uk-width-1-3 .uk-margin-small-bottom}
 Half Width Button
 
 ### Rounded Button
