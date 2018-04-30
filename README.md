@@ -37,17 +37,17 @@ This theme wouldn't have been made possible if it wasn't for:
 
 * [GitHub](https://www.github.com/)
 
+* [Michael Rose's Minimal Mistakes Theme](https://github.com/mmistakes/minimal-mistakes)
+
 * [Dean Attali's Beautiful-Jekyll Theme](https://github.com/daattali/beautiful-jekyll)
 
 * [David Darnes's Alembic Jekyll Theme](https://github.com/daviddarnes/alembic)
 
-* [Algolia Search](https://www.algolia.com/)
-
 * [James Williamson's Jekyll series on lynda.com](https://www.lynda.com/Jekyll-tutorials/Jekyll-Web-Designers/383124-2.html)
 
-* [Shopify's Liquid Templating language](https://help.shopify.com/themes/liquid)
-
 ### Also, thanks to
+
+* [Algolia Search](https://www.algolia.com/)
 
 * [OneDarkJekyll](https://github.com/mgyongyosi/OneDarkJekyll) for the syntax highlighting.
 
@@ -61,6 +61,7 @@ This theme wouldn't have been made possible if it wasn't for:
 
 * [Michael Woolweaver](https://github.com/mwoolweaver) - a good friend of mine who gave me a nudge in the right direction.
 
+And many other people and things that I am forgetting.
 
 ## Installation
 

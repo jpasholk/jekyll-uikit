@@ -4,11 +4,17 @@ title: About Jekyll-UiKit
 bigimg: /assets/img/uikit.jpg
 ---
 
-![GitHub forks](https://img.shields.io/github/forks/jpasholk/jekyll-uikit.svg?style=social&label=Fork) ![GitHub stars](https://img.shields.io/github/stars/jpasholk/jekyll-uikit.svg?style=social&label=Stars) ![license](https://img.shields.io/github/license/jpasholk/jekyll-uikit.svg) ![GitHub last commit](https://img.shields.io/github/last-commit/jpasholk/jekyll-uikit.svg) ![GitHub issues](https://img.shields.io/github/issues-raw/jpasholk/jekyll-uikit.svg) [![Gem](https://img.shields.io/gem/dt/jekyll-uikit.svg)](https://rubygems.org/gems/jekyll-uikit) ![GitHub contributors](https://img.shields.io/github/contributors/jpasholk/jekyll-uikit.svg)
-
 ![Jekyll-UiKit](/Screenshot.png)
 
-Built in [UiKit](https://getuikit.com/){:target="_ blank"}, with an elegant homepage, a blog and archive pages, and lighting fast search with Algolia.
+Built in [UiKit](https://getuikit.com/){:target="_ blank"}, with an elegant homepage, blog and archive pages, and lighting fast search with Algolia. Build a simple and beautiful website or blog in a few hours or less.
+
+[![GitHub forks](https://img.shields.io/github/forks/jpasholk/jekyll-uikit.svg?style=social&label=Fork)](https://github.com/jpasholk/jekyll-uikit/fork/)
+[![GitHub stars](https://img.shields.io/github/stars/jpasholk/jekyll-uikit.svg?style=social&label=Stars)](https://github.com/jpasholk/jekyll-uikit/stargazers)
+[![license](https://img.shields.io/github/license/jpasholk/jekyll-uikit.svg)](https://github.com/jpasholk/jekyll-uikit/blob/master/LICENSE.txt)
+[![GitHub last commit](https://img.shields.io/github/last-commit/jpasholk/jekyll-uikit.svg)](https://github.com/jpasholk/jekyll-uikit/commits/master)
+[![GitHub issues](https://img.shields.io/github/issues-raw/jpasholk/jekyll-uikit.svg)](https://github.com/jpasholk/jekyll-uikit/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
+[![Gem](https://img.shields.io/gem/dt/jekyll-uikit.svg)](https://rubygems.org/gems/jekyll-uikit)
+[![GitHub contributors](https://img.shields.io/github/contributors/jpasholk/jekyll-uikit.svg)](https://github.com/jpasholk/jekyll-uikit/graphs/contributors)
 
 # Credits
 
@@ -22,17 +28,17 @@ This theme wouldn't have been made possible if it wasn't for:
 
 * [GitHub](https://www.github.com/){:target="_ blank"}
 
+* [Michael Rose's Minimal Mistakes Theme](https://github.com/mmistakes/minimal-mistakes){:target="_ blank"}
+
 * [Dean Attali's Beautiful-Jekyll Theme](https://github.com/daattali/beautiful-jekyll){:target="_ blank"}
 
 * [David Darnes's Alembic Jekyll Theme](https://github.com/daviddarnes/alembic){:target="_ blank"}
 
-* [Algolia Search](https://www.algolia.com/){:target="_ blank"}
-
 * [James Williamson's Jekyll series on lynda.com](https://www.lynda.com/Jekyll-tutorials/Jekyll-Web-Designers/383124-2.html){:target="_ blank"}
 
-* [Shopify's Liquid Templating language](https://help.shopify.com/themes/liquid){:target="_ blank"}
-
 ### Also, thanks to
+
+* [Algolia Search](https://www.algolia.com/){:target="_ blank"}
 
 * [OneDarkJekyll](https://github.com/mgyongyosi/OneDarkJekyll){:target="_ blank"} for the syntax highlighting.
 
@@ -45,3 +51,5 @@ This theme wouldn't have been made possible if it wasn't for:
 * [unDraw.co](https://undraw.co) and [Unsplash](https://unsplash.com) for the awesome images used around the site.
 
 * [Michael Woolweaver](https://github.com/mwoolweaver){:target="_ blank"} - a good friend of mine who gave me a nudge in the right direction.
+
+And many other people and things that I am forgetting.
