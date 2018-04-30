@@ -5,7 +5,7 @@ date: "2018-04-28 10:32:13 -0700"
 tags: [test, help, docs, installing]
 ---
 
-Jekyll-UiKit is available as a [Jekyll theme gem](http://jekyllrb.com/docs/themes/). It has been built with Github Pages in mind. Installing should be fairly simple.
+Jekyll-UiKit is available as a [Jekyll theme gem](https://jekyllrb.com/docs/themes/). It has been built with Github Pages in mind. Installing should be fairly simple.
 
 <!--more-->
 
@@ -53,7 +53,7 @@ Add `remote_theme: "jpasholk/jekyll-uikit"` to your `_config.yml` file. Remove a
 
 ---
 
-**Note:** Your Jekyll site should be viewable immediately at <http://USERNAME.github.io>. If it's not, you can force a rebuild by **Customizing Your Site** (see below for more details).
+**Note:** Your Jekyll site should be viewable immediately at <https://USERNAME.github.io>. If it's not, you can force a rebuild by **Customizing Your Site** (see below for more details).
 {: .uk-alert-warning .uk-padding-small}
 
 If you're hosting several Jekyll based sites under the same GitHub username you will have to use Project Pages instead of User Pages. Essentially you rename the repo to something other than **USERNAME.github.io** and create a `gh-pages` branch off of `master`. For more details on how to set things up check [GitHub's documentation](https://help.github.com/articles/user-organization-and-project-pages/).
@@ -111,7 +111,7 @@ Start by removing the following folders and any files within them:
 |  └── js
 ```
 
-You won't need these anymore as they're bundled with the theme gem --- unless you intend to [override them](http://jekyllrb.com/docs/themes/#overriding-theme-defaults).
+You won't need these anymore as they're bundled with the theme gem --- unless you intend to [override them](https://jekyllrb.com/docs/themes/#overriding-theme-defaults).
 
 #### Update Gemfile
 
