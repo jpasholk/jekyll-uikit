@@ -9,7 +9,7 @@
 [![GitHub contributors](https://img.shields.io/github/contributors/jpasholk/jekyll-uikit.svg)](https://github.com/jpasholk/jekyll-uikit/graphs/contributors)
 [![Gem](https://img.shields.io/gem/v/jekyll-uikit.svg)](https://rubygems.org/gems/jekyll-uikit)
 
-[Live Demo](https://jpasholk.com/jekyll-uikit/)
+[Live Demo](https://jekyll-uikit.mwoolweaver.us)
 
 ## Home Page
 
