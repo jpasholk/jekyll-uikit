@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-uikit"
-  spec.version       = "0.1.7"
+  spec.version       = "0.2.0"
   spec.authors       = ["jpasholk"]
   spec.email         = ["josh.pasholk@gmail.com"]
 
