@@ -13,6 +13,13 @@
 
 *
 
+## 0.2.1
+
+### Enhancements
+
+* Added Algolia search to demo site
+
+
 *****
 
 ## 0.2.0
