@@ -1,17 +1,11 @@
-## Unreleased
-
-### Enhancements
-
-*
+## 0.2.2
 
 ### Bug Fixes
 
-*
+* Attempting to fix a travis error:
 
-
-### Miscellaneous
-
-*
+` Error: could not read file /home/travis/build/jpasholk/jekyll-uikit/vendor/bundle/ruby/2.4.0/gems/jekyll-3.7.3/lib/site_template/_posts/0000-00-00-welcome-to-jekyll.markdown.erb: Invalid date '<%= Time.now.strftime('%Y-%m-%d %H:%M:%S %z') %>': Document 'vendor/bundle/ruby/2.4.0/gems/jekyll-3.7.3/lib/site_template/_posts/0000-00-00-welcome-to-jekyll.markdown.erb' does not have a valid date in the YAML front matter.
+jekyll 3.7.3 | Error:  Invalid date '<%= Time.now.strftime('%Y-%m-%d %H:%M:%S %z') %>': Document 'vendor/bundle/ruby/2.4.0/gems/jekyll-3.7.3/lib/site_template/_posts/0000-00-00-welcome-to-jekyll.markdown.erb' does not have a valid date in the YAML front matter.`
 
 ## 0.2.1
 
