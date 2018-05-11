@@ -1,3 +1,13 @@
+## 0.2.3
+
+## Bug Fixes
+
+* Fixed TravisCI builds failing by excluding `vendor/` in `_config.yml`.
+
+* Fixed 404 page. [PR](https://github.com/jpasholk/jekyll-uikit/pull/21/commits/be799df87c95af7397ad127229733b47fdac09b6)
+
+* Starting to use the `default` liquid string filter. [PR](https://github.com/jpasholk/jekyll-uikit/pull/20/commits/40d1d8325dcb71bf171588e01e122b9c9d119b98)
+
 ## 0.2.2
 
 ### Bug Fixes
