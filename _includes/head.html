@@ -2,15 +2,17 @@
   <meta charset="utf-8">
   <meta https-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+  
+  {%- assign page_title = page.title | default: site.title -%}
+  {%- assign page_description = page.description | default: site.description -%}
   <link rel="author" href="{{ site.author }}">
   <link rel="publisher" href="{{ site.name }}">
-  <meta itemprop="name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta itemprop="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta itemprop="name" content="{{ page_title }}">
+  <meta itemprop="description" content="{{ page_description }}">
   <meta itemprop="image" content="{{ page.bigimg }}">
 
   <meta name="theme-color" content="#2e353f">
-  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="description" content="{{ page_description }}">
   <meta name="robots" content="index,follow">
   <meta name="googlebot" content="index,follow">
   <meta name="generator" content="jekyll">
@@ -22,8 +24,8 @@
   <meta property="fb:app_id" content="{{ site.fb_app_id }}">
   <meta property="og:url" content="{{ site.url }}{{ page.url | replace:'index.html',''}}">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta property="og:image" content="{% if page.bigimg %}{{ site.url }}{{ page.bigimg }}{% else %}{{ site.url }}{{ "/assets/img/alaska-glacier-1.jpg" }}{% endif %}">
+  <meta property="og:title" content="{{ page_title }}">
+  <meta property="og:image" content="{% if page.bigimg %}{{ page.bigimg | prepend: site.url }}{% else %}{{ "/assets/img/alaska-glacier-1.jpg" | prepend: site.url }}{% endif %}">
   <meta property="og:description" content="{{ site.description }}">
   <meta property="og:site_name" content="{{ site.name }}">
   <meta property="og:locale" content="{{ site.locale }}">
@@ -33,16 +35,16 @@
   <meta name="twitter:site" content="@{{ site.twitter }}">
   <meta name="twitter:creator" content="@{{ site.twitter }}">
   <meta name="twitter:url" content="{{ site.url }}{{ page.url | replace:'index.html',''}}">
-  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="twitter:image" content="{% if page.bigimg %}{{ site.url }}{{ page.bigimg }}{% else %}{{ site.url }}{{ "/Screenshot.png" }}{% endif %}">
+  <meta name="twitter:title" content="{{ page_title }}">
+  <meta name="twitter:description" content="{{ page_description }}">
+  <meta name="twitter:image" content="{% if page.bigimg %}{{ page.bigimg | prepend: site.url }}{% else %}{{ "/Screenshot.png" | prepend: site.url }}{% endif %}">
   <meta name="twitter:dnt" content="on">
 
   <!-- Preloading is not currently supported by any browser at the moment, the idea behind it is certainly interesting.
   <link rel="preload" href="image.png" as="image">
   -->
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <title>{{ page_title }}</title>
 
   <base href="{{site.baseurl}}">
 
@@ -53,7 +55,7 @@
   <link rel="prefetch" href="{{site.baseurl}}">
   <link rel="prerender" href="{{site.baseurl}}">
   <link href="{{ "/assets/avatar-icon.png" | relative_url }}" rel="shortcut icon">
-  <link href="{{ "/assets/apple-touch-icon.png" | relative_url }}" rel=”apple-touch-icon”>
+  <link href="{{ "/assets/apple-touch-icon.png" | relative_url }}" rel="apple-touch-icon">
   <!-- https://gist.github.com/bennylope/1894706 -->
   <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
   <link rel="license" href="{{ /LICENCE | relative_url }}">
