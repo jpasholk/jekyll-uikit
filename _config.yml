@@ -29,7 +29,6 @@ exclude:
 - README.md
 - CODE_OF_CONDUCT.md
 - CONTRIBUTING.md
-- Screenshot.png
 - LICENSE
 - CNAME
 - Gemfile
