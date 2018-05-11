@@ -16,6 +16,28 @@ Built in [UiKit](https://getuikit.com/){:target="_ blank"}, with an elegant home
 [![Gem](https://img.shields.io/gem/dt/jekyll-uikit.svg)](https://rubygems.org/gems/jekyll-uikit)
 [![GitHub contributors](https://img.shields.io/github/contributors/jpasholk/jekyll-uikit.svg)](https://github.com/jpasholk/jekyll-uikit/graphs/contributors)
 
+# Features
+
+* 100% compatible with GitHub Pages!
+
+* Available to install by forking, cloning, or as a theme gem.
+
+* Responsive layout.
+
+* Simple landing/ home page.
+
+* Paginated blog page with follow links on last page.
+
+* Tag archive page that automatically populates with tags from posts. ie: [tag1, tag2, tag3, etc]
+
+* Optimized for search engines with support for Twitter Cards and Open Graph data
+
+* Comments powered by Disqus, with Staticman integration planned.
+
+* Google Analytics support
+
+* Large header image support with `bigimg`.
+
 # Credits
 
 This theme wouldn't have been made possible if it wasn't for:

@@ -48,6 +48,35 @@ Built with [UiKit](https://getuikit.com/) by [YooTheme](https://yootheme.com/), 
 
 * Large header image support with `bigimg`.
 
+## Installation
+
+Add this line to your Jekyll site's `Gemfile`:
+
+```ruby
+gem "jekyll-uikit"
+```
+
+And add this line to your Jekyll site's `_config.yml`:
+
+```yaml
+theme: jekyll-uikit
+```
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install jekyll-uikit
+
+## Usage
+
+* You can find instructions on using this theme in the [blog](https://jekyll-uikit.jpasholk.com/blog/) of the demo site.
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/jpasholk/jekyll-uiki. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://contributor-covenant.org) code of conduct.
 
 # Credits
 
@@ -86,37 +115,6 @@ This theme wouldn't have been made possible if it wasn't for:
 * [Michael Woolweaver](https://github.com/mwoolweaver) - a good friend of mine who gave me a nudge in the right direction.
 
 And many other people and things that I am forgetting.
-
-## Installation
-
-Add this line to your Jekyll site's `Gemfile`:
-
-```ruby
-gem "jekyll-uikit"
-```
-
-And add this line to your Jekyll site's `_config.yml`:
-
-```yaml
-theme: jekyll-uikit
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install jekyll-uikit
-
-## Usage
-
-* You can find instructions on using this theme in the [blog](https://jekyll-uikit.jpasholk.com/blog/) of the demo site.
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/jpasholk/jekyll-uiki. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://contributor-covenant.org) code of conduct.
-
 
 ## License
 
