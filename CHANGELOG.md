@@ -1,6 +1,14 @@
+##Unreleased - 0.2.4
+
+### Bug Fixes
+
+* Added `hit._highlightResult.html` to `const content = hit._highlightResult.html.value;` in `algolia.html` as a guard if it's undefined, as suggested [here](https://twitter.com/haroenv/status/992437695652745216)
+
+* Cleaning up `_config.yml`.
+
 ## 0.2.3
 
-## Bug Fixes
+### Bug Fixes
 
 * Fixed TravisCI builds failing by excluding `vendor/` in `_config.yml`.
 

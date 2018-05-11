@@ -28,14 +28,13 @@
 exclude:
 - README.md
 - CODE_OF_CONDUCT.md
-- contributing.md
-- screenshot.png
+- CONTRIBUTING.md
+- Screenshot.png
 - LICENSE
 - CNAME
 - Gemfile
 - Gemfile.lock
 - jekyll-uikit.gemspec
-- assest/node_modules
 - vendor/
 
 # 2. Installed Gems

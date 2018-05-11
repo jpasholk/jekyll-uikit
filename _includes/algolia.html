@@ -31,7 +31,7 @@ const hitTemplate = function(hit) {
     }).join(' > ')
   }
 
-  const content = hit._highlightResult.html.value;
+  const content = hit._highlightResult.html && hit._highlightResult.html.value;
 
   return `
   <div class="post-item">
