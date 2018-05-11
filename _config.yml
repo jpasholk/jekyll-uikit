@@ -36,6 +36,7 @@ exclude:
 - Gemfile.lock
 - jekyll-uikit.gemspec
 - assest/node_modules
+- vendor/
 
 # 2. Installed Gems
 plugins:
