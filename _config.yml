@@ -78,7 +78,7 @@ to_top: true
 disqus: ""
 twitter: "jpasholk"
 github: "jpasholk"
-# buymeacoffee: ""
+buymeacoffee: "jpasholk"
 fb_app_id: "" # This is needed for FB Cards to work.
 google_analytics: ""
 

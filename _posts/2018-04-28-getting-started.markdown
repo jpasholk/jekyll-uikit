@@ -135,8 +135,6 @@ gem "jekyll-uikit"
 
 Then run `bundle update` and add `theme: jekyl-uikit` to your `_config.yml`.
 
----
-
 That's it! If all goes well running `bundle exec jekyll serve` should spin-up your site.
 
 ---
