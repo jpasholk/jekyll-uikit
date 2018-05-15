@@ -94,6 +94,11 @@ algolia:
   application_id: KMHLT5L375
   index_name: jekyll-uikit
   search_only_api_key: e43ae3e3f3a00829f55ad49d6813f9e3
+  files_to_exclude:
+    - about.md
+    - CHANGELOG.md
+    - archive/*.html
+    - blog/*.html
 
 # 8. Site navigation
 # Not using this yet
