@@ -8,6 +8,8 @@
 
 * Cleaning up README and About.
 
+* Fixed spelling in docs.
+
 ## 0.2.3
 
 ### Bug Fixes
