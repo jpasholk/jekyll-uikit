@@ -1,5 +1,9 @@
 ## Unreleased - 0.2.4
 
+* Fixed Google Analytics being hard-coded into head for some reason.
+
+* Updated gem dependancies.
+
 ### Bug Fixes
 
 * Added `hit._highlightResult.html` to `const content = hit._highlightResult.html.value;` in `algolia.html` as a guard if it's undefined, as suggested [here](https://twitter.com/haroenv/status/992437695652745216).
