@@ -12,7 +12,7 @@
         {% else %}
           {% assign url = link.url | relative_url %}
         {% endif %}
-        <li class="{% if page.url contains {{url}} %}uk-active{% endif %}"><a href="{{ url }}">{{ link.title }}</a></li>
+        <li class="{% if page.url contains link.url %}uk-active{% endif %}"><a href="{{ url }}">{{ link.title }}</a></li>
         {% endfor %}
         {% for link in site.data.navigation.toggle %}
         {% if link.url contains "https" %}
@@ -20,7 +20,7 @@
         {% else %}
           {% assign url = link.url | relative_url %}
         {% endif %}
-        <li class="{% if page.url contains {{url}} %}uk-active{% endif %}">
+        <li class="{% if page.url contains link.url %}uk-active{% endif %}">
           <a href="{{ url }}">{{ link.title }}</a>
           <div class="uk-navbar-dropdown uk-border-rounded uk-background-muted">
             <ul class="uk-nav uk-navbar-dropdown-nav">
@@ -30,7 +30,7 @@
                   {% else %}
                   {% assign url = link.url | relative_url %}
                   {% endif %}
-                  <li class="{% if page.url contains {{url}} %}uk-active{% endif %} uk-nav-header"><a href="{{ url }}">{{ link.title }}</a></li>
+                  <li class="{% if page.url contains link.url %}uk-active{% endif %} uk-nav-header"><a href="{{ url }}">{{ link.title }}</a></li>
               {% endfor %}
             </ul>
           </div>
@@ -51,7 +51,7 @@
                   {% else %}
                   {% assign url = link.url | relative_url %}
                 {% endif %}
-                  <li class="{% if page.url contains {{url}} %}uk-active{% endif %} uk-nav-header"><a href="{{ url }}">{{ link.title }}</a></li>{% unless forloop.last %} <hr> {% endunless %}
+                  <li class="{% if page.url contains link.url %}uk-active{% endif %} uk-nav-header"><a href="{{ url }}">{{ link.title }}</a></li>{% unless forloop.last %} <hr> {% endunless %}
               {% endfor %}
             </ul>
           </div>
