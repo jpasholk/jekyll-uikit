@@ -9,7 +9,7 @@ bigimg: /assets/img/writer.jpg
   <article class="uk-article uk-padding-xsmall">
     <h2 class="uk-heading-line"><span>Latest Blog Posts</span></h2>
     {% for post in paginator.posts %}
-    <div uk-scrollspy="cls:uk-animation-fade; repeat: true; delay: 400">
+    <div>
       <h4><a class="uk-link-text"href="{{ post.url | relative_url }}">{{ post.title }}</a></h4>
 
       <p class="uk-article-meta">

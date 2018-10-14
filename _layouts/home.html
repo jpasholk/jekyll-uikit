@@ -6,7 +6,7 @@ layout: default
   <div class="uk-container-expand">
 
     <div class="uk-section-default">
-      <div class="uk-section-large uk-light uk-background-fixed uk-background-cover uk-background-center" style="background-image: url({{ "/assets/img/boats.jpg" | relative_url }})">
+      <div class="uk-section-large uk-light uk-background-fixed uk-background-cover uk-background-center uk-blend-darken" style="background-image: url({{ "/assets/img/boats.jpg" | relative_url }}); background-color: grey; background-blend-mode: multiply; ">
         <div class="intro-text uk-container">
           <h2 class="uk-heading-primary">A Simple, Elegant Jekyll Theme</h2>
           <div class="uk-grid-match uk-child-width-1-1@m" uk-grid>
@@ -21,11 +21,11 @@ layout: default
     <div id="Features" class="uk-section uk-section-muted">
       <div class="uk-container">
         <h2 class="uk-heading-line"><span>Features</span></h2>
-        <div class="uk-grid-match uk-child-width-1-3@s uk-flex" uk-grid uk-scrollspy="target: > div; cls:uk-animation-fade; delay: 200; repeat: true">
+        <div class="uk-grid-match uk-child-width-1-3@s uk-flex" uk-grid>
 
           <div>
             <a class="uk-link-muted" href="https://getuikit.com/" target="_blank">
-            <div uk-scrollspy="target: > div; cls:uk-animation-fade; delay: 400; repeat: true" class="uk-inline uk-margin">
+            <div class="uk-inline uk-margin">
                 <img class="uk-border-rounded" src="{{ "/assets/img/site-build.png" | relative_url }}">
                 <div class="uk-text-center uk-padding-small">
                   <h4>Built With UiKit</h4> A lightweight and modular front-end framework for developing fast and powerful web interfaces.
@@ -36,7 +36,7 @@ layout: default
 
           <div>
             <a class="uk-link-muted" href="" target="_blank">
-            <div uk-scrollspy="target: > div; cls:uk-animation-fade; delay: 400; repeat: true" class="uk-inline uk-margin">
+            <div class="uk-inline uk-margin">
               <img class="uk-border-rounded" src="{{ "/assets/img/archive-page.png" | relative_url }}">
               <div class="uk-text-center uk-padding-small">
                 <h4>Tags and Archive page Included</h4> Tags will automatically fill the tag cloud and archive page when properly listed in front matter.
@@ -47,7 +47,7 @@ layout: default
 
           <div>
             <a class="uk-link-muted" href="https://github.com/jpasholk/jpasholk.github.io" target="_blank">
-            <div uk-scrollspy="target: > div; cls:uk-animation-fade; delay: 400; repeat: true" class="uk-inline uk-margin">
+            <div class="uk-inline uk-margin">
               <img class="uk-border-rounded" src="{{ "/assets/img/search.png" | relative_url }}">
               <div class="uk-text-center uk-padding-small">
                 <h4>Algolia Search Ready</h4> Use Algolia's instant search! It's insanely fast and pretty easy to set up and configure.
@@ -61,7 +61,7 @@ layout: default
     </div>
 
     <div id="Connect" class="uk-section uk-section-secondary">
-      <div uk-scrollspy="target: > div; cls:uk-animation-fade; delay: 400; repeat: true" class="uk-container">
+      <div class="uk-container">
         <h2 class="uk-heading-line"><span>Connect</span></h2>
         <div class="uk-grid-match uk-child-width-1-1@m" uk-grid>
           <div>

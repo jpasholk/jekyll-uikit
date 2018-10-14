@@ -4,6 +4,8 @@
 
 * Updated gem dependancies.
 
+* Fixed Active state being broken when using serving from a sub folder. - Thanks @David Darnes!
+
 ### Bug Fixes
 
 * Added `hit._highlightResult.html` to `const content = hit._highlightResult.html.value;` in `algolia.html` as a guard if it's undefined, as suggested [here](https://twitter.com/haroenv/status/992437695652745216).
