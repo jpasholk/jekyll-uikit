@@ -4,7 +4,13 @@
 
 * Updated gem dependancies.
 
-* Fixed Active state being broken when using serving from a sub folder. - Thanks @David Darnes!
+* Fixed Active state being broken when using serving from a sub folder. - Thanks @DavidDarnes!
+
+* Added a dark overlay to the hero image.
+
+* Added an awesome form thanks again to @DavidDarnes!
+
+* Added [TravisBuddy](https://www.travisbuddy.com/getting-started)!
 
 ### Bug Fixes
 

@@ -10,3 +10,5 @@ branches:
     - master
 rvm:
  - 2.4
+notifications:
+    webhooks: https://www.travisbuddy.com/
