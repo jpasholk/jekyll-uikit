@@ -34,19 +34,19 @@ Built with [UiKit](https://getuikit.com/) by [YooTheme](https://yootheme.com/), 
 
 * Responsive layout.
 
-* Simple landing/ home page.
+* Contact forms powered by [Formspree.io](https://formspree.io)!
 
 * Paginated blog page with follow links on last page.
 
-* Tag archive page that automatically populates with tags from posts. ie: [tag1, tag2, tag3, etc]
+* Tag archive page that automatically populates with tags from posts. ie: [tag1, tag2, tag3, etc].
 
-* Optimized for search engines with support for Twitter Cards and Open Graph data
+* Optimized for search engines with support for Twitter Cards and Open Graph data.
 
 * Comments powered by Disqus, with Staticman integration planned.
 
-* Google Analytics support
+* Google Analytics support.
 
-* Large header image support with `bigimg`.
+* Large header image support.
 
 ## Installation
 
