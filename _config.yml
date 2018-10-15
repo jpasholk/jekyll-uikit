@@ -64,7 +64,7 @@ timezone: America/Los_Angeles # https://en.wikipedia.org/wiki/List_of_tz_databas
 name: Jekyll-UiKit
 title: Jekyll-UiKit
 author: Josh Pasholk
-email:
+email: josh.pasholk@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Build a professional portfolio site in minutes with Jekyll-Uikit!
 baseurl: "" # the subpath of your site, e.g. /blog
