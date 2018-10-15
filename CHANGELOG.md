@@ -1,4 +1,4 @@
-## Unreleased - 0.2.4
+## 0.2.4
 
 * Fixed Google Analytics being hard-coded into head for some reason.
 
