@@ -12,7 +12,7 @@
   {% assign thanks_url = "/thanks/" %}
 {% endif %}
 
-<form class="form  form--{{ name_id }}" method="post" name="{{ name }}" action="{{ thanks_url }}"
+<form class="form form--{{ name_id }}" method="post" name="{{ name }}" action="{{ thanks_url }}"
   {% if include.netlify_form %}
     netlify-honeypot="bot-field"
     netlify
@@ -34,14 +34,14 @@
       <label class="label" for="message--{{ name_id }}">Message:<textarea class="uk-textarea" id="message--{{ name_id }}" name="message" placeholder="Your message..." required="required"></textarea></label>
     </div>
 
-    <input class="uk-button uk-button-primary" type="submit" value="Send message" />
+    <input class="uk-button uk-button-primary" type="submit" value="Send message"/>
 
     {% if include.netlify_form %}
       <label  style="display:none">Don’t fill this out if you’re human: <input name="bot-field" /></label>
     {% else %}
       <input type="text" name="_gotcha" style="display:none">
       <input type="hidden" name="_subject" value="{{ site.title }} submission from {{ name }}">
-      <input type="hidden" name="_next" value="{{ thanks_url }}" />
+      <input type="hidden" name="_next" value="{{ thanks_url }}"/>
     {% endif %}
   </fieldset>
 </form>

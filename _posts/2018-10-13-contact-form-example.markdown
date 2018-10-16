@@ -11,4 +11,6 @@ Set `netlify_form=true` when using the include to use Netlify Forms, otherwise t
 
 Use the `email` option in the `/_config.yml` to change to the desired email.
 
+If you'd like to use a different thank you page, set it in ```_includes/contact-form.html```. Just change the ```thanks_url="/some-other-page/"``` tag to some other value.
+
 {% include contact-form.html %}
