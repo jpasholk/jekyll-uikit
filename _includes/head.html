@@ -65,7 +65,9 @@
   <!-- UiKit CSS -->
   <link rel="stylesheet" href="{{ "/assets/css/uikit.min.css" | relative_url }}">
   <!-- syntax highlighting CSS -->
-   <link rel="stylesheet" href="{{ "/assets/css/syntax.css" | relative_url }}" type="text/css">
+  <link rel="stylesheet" href="{{ "/assets/css/syntax.css" | relative_url }}" type="text/css">
+  <!-- Overrides CSS -->
+  <link rel="stylesheet" href="{{ "/assets/css/theme-overrides.scss" | relative_url }}" type="text/css">
   <!-- UiKit Javascript -->
   <script type="text/javascript" src="{{ "/assets/js/uikit.min.js " | relative_url }}"></script>
   <script type="text/javascript" src="{{ "/assets/js/uikit-icons.min.js " | relative_url }}"></script>
@@ -77,18 +79,5 @@
           enable_page_level_ads: true
      });
 </script>
-  <style>
-    .intro-text {
-      text-shadow: 1px 1px 2px black;
-    }
-    blockquote {
-      border-left: 5px solid #ccc;
-      background: #f9f9f9;
-      border-radius: 0px 4px 4px 0px;
-      padding: 5px 10px;
-    }
-    .button {
-      -web-appearance: none;
-    }
-  </style>
+
 </head>
