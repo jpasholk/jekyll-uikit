@@ -1,5 +1,7 @@
 source "http://rubygems.org"
 
+gem 'html-proofer'
+
 gem 'github-pages', group: :jekyll_plugins do
 
 gem 'jekyll-paginate'
