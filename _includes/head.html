@@ -5,8 +5,8 @@
 
   {%- assign page_title = page.title | default: site.title -%}
   {%- assign page_description = page.description | default: site.description -%}
-  <link rel="author" href="{{ site.author }}">
-  <link rel="publisher" href="{{ site.name }}">
+  <link rel="author" content="{{ site.author }}">
+  <link rel="publisher" content="{{ site.name }}">
   <meta itemprop="name" content="{{ page_title }}">
   <meta itemprop="description" content="{{ page_description }}">
   <meta itemprop="image" content="{{ page.bigimg }}">
@@ -59,7 +59,7 @@
   <!-- https://gist.github.com/bennylope/1894706 -->
   <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
   <link rel="license" href="{{ /LICENCE | relative_url }}">
-  <link rel="alternate" href="https://es.example.com/" hreflang="{{ site.lang }}">
+  <link rel="alternate" hreflang="{{ site.lang }}">
   <!-- https://validator.w3.org/feed/ -->
   <link href="{{ "/feed.xml" | relative_url }}" type="application/rss+xml" rel="alternate" title="Latest 10 blog posts (atom)">
   <!-- UiKit CSS -->
