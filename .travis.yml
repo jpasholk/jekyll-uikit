@@ -4,7 +4,7 @@ language: ruby
 cache: bundler
 script:
   - bundle exec jekyll build
-  - bundle exec htmlproofer ./_site
+  - bundle exec htmlproofer ./_site --disable_external
 branches:
   only:
     # Change this to gh-pages if you're deploying using the gh-pages branch
