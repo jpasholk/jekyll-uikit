@@ -1,0 +1,13 @@
+<!--Reading time-->
+<span class="uk-article-meta" uk-icon="clock"></span>
+<span class="uk-article-meta" title="Estimated read time">
+  {% assign words = post.content | number_of_words %}
+  {% if words < 360 %}
+    <span class="uk-article-meta">1 min</span>
+  {% else %}
+    <span class="uk-article-meta">{{ words | divided_by:180 }} mins</span>
+  {% endif %}
+</span>
+<!--credit:
+https://carlosbecker.com/posts/jekyll-reading-time-without-plugins/
+-->

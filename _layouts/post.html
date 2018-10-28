@@ -24,7 +24,8 @@ layout: default
           <span uk-icon="calendar"></span> <span class="date">{{page.date | date: "%b %d, %Y "}}</span>
           <span uk-icon="tag"></span>
           {% for tag in page.tags %}
-          <a href="{{ site.baseurl }}/archive/index.html#{{ tag | cgi_escape }}" title="Pages tagged {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
+          <a href="{{ site.baseurl }}/archive/index.html#{{ tag | cgi_escape }}" title="Pages tagged {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %} 
+          {% include reading-time.html %}
         </p>
       </div>
     </div>

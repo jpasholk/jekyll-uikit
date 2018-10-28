@@ -1,3 +1,13 @@
+## 0.3.0
+
+### Enhancements
+
+* Added reading time to posts. [Credits](https://carlosbecker.com/posts/jekyll-reading-time-without-plugins/)
+
+### Bug Fixes
+
+* Fixed the submit button on forms. Thanks again to @DavidDarnes!
+
 ## 0.2.4
 
 * Fixed Google Analytics being hard-coded into head for some reason.
