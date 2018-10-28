@@ -23,7 +23,6 @@
 
 ![Jekyll-UiKit Archives](/docs/Archives-Screenshot.png)
 
-
 Built with [UiKit](https://getuikit.com/) by [YooTheme](https://yootheme.com/), with an elegant homepage, a blog and archive pages, and lighting fast search with Algolia.
 
 # Features
@@ -47,6 +46,8 @@ Built with [UiKit](https://getuikit.com/) by [YooTheme](https://yootheme.com/), 
 * Google Analytics support.
 
 * Large header image support.
+
+* Reading time for posts and blog index. [Credits](https://carlosbecker.com/posts/jekyll-reading-time-without-plugins/)
 
 ## Installation
 

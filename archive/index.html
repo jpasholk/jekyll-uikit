@@ -16,7 +16,8 @@ title: Post Archive
         <ul class="uk-list tag-list">
         {% for post in site.tags[tag] %}
           <li>
-            <span class="uk-article-meta" uk-icon="calendar"></span> <time class="uk-article-meta" itemprop="dateCreated" datetime="{{post.date}}">{{post.date | date: "%b %d, %Y "}}</time> <a href="{{site.baseurl}}{{post.url}}" rel="bookmark" title="Link to {{site.baseurl}}{{post.url}}">{{post.title}}</a>
+            <span class="uk-article-meta" uk-icon="calendar"></span> <time class="uk-article-meta" itemprop="dateCreated" datetime="{{post.date}}">{{post.date | date: "%b %d, %Y "}}</time>
+            <a href="{{site.baseurl}}{{post.url}}" rel="bookmark" title="Link to {{site.baseurl}}{{post.url}}">{{post.title}}</a>
           </li>
         {% endfor %}
         </ul>
