@@ -8,6 +8,7 @@
 [![Gem](https://img.shields.io/gem/dt/jekyll-uikit.svg)](https://rubygems.org/gems/jekyll-uikit)
 [![GitHub contributors](https://img.shields.io/github/contributors/jpasholk/jekyll-uikit.svg)](https://github.com/jpasholk/jekyll-uikit/graphs/contributors)
 [![Gem](https://img.shields.io/gem/v/jekyll-uikit.svg)](https://rubygems.org/gems/jekyll-uikit)
+[![Open Source Helpers](https://www.codetriage.com/jpasholk/jekyll-uikit/badges/users.svg)](https://www.codetriage.com/jpasholk/jekyll-uikit)
 
 [Live Demo](https://jekyll-uikit.jpasholk.com)
 

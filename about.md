@@ -15,6 +15,7 @@ Built in [UiKit](https://getuikit.com/){:target="_ blank"}, with an elegant home
 [![GitHub issues](https://img.shields.io/github/issues-raw/jpasholk/jekyll-uikit.svg)](https://github.com/jpasholk/jekyll-uikit/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
 [![Gem](https://img.shields.io/gem/dt/jekyll-uikit.svg)](https://rubygems.org/gems/jekyll-uikit)
 [![GitHub contributors](https://img.shields.io/github/contributors/jpasholk/jekyll-uikit.svg)](https://github.com/jpasholk/jekyll-uikit/graphs/contributors)
+[![Open Source Helpers](https://www.codetriage.com/jpasholk/jekyll-uikit/badges/users.svg)](https://www.codetriage.com/jpasholk/jekyll-uikit)
 
 # Features
 
