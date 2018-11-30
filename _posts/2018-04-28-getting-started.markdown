@@ -53,21 +53,21 @@ Add `remote_theme: "jpasholk/jekyll-uikit"` to your `_config.yml` file. Remove a
 
 ---
 
-**Note:** Your Jekyll site should be viewable immediately at <https://USERNAME.github.io>. If it's not, you can force a rebuild by **Customizing Your Site** (see below for more details).
+**Note:** Your Jekyll site should be viewable immediately at `https://USERNAME.github.io`. If it's not, you can force a rebuild by **Customizing Your Site** (see below for more details).
 {: .uk-alert-warning .uk-padding-small}
 
 If you're hosting several Jekyll based sites under the same GitHub username you will have to use Project Pages instead of User Pages. Essentially you rename the repo to something other than **USERNAME.github.io** and create a `gh-pages` branch off of `master`. For more details on how to set things up check [GitHub's documentation](https://help.github.com/articles/user-organization-and-project-pages/).
 
 You can also install the theme by copying all of the theme files into your project and removing what you don't need.
 
-To do so fork the [Jekyll-UiKit theme](https://github.com/jpasholk/jekyl-uikit/fork), then rename the repo to **USERNAME.github.io** --- replacing **USERNAME** with your GitHub username.
+To do so fork the [Jekyll-UiKit theme](https://github.com/jpasholk/jekyll-uikit/fork), then rename the repo to **USERNAME.github.io** --- replacing **USERNAME** with your GitHub username.
 
 **GitHub Pages Alternatives:** Looking to host your site for free and install/update the theme painlessly? [Netflify][netlify-jekyll], [GitLab Pages][gitlab-jekyll], and [Continuous Integration (CI) services][ci-jekyll] have you covered. In most cases all you need to do is connect your repository to them, create a simple configuration file, and install the theme following the [Ruby Gem Method](#ruby-gem-method) above.
 {: .uk-alert .uk-padding-small}
 
 [netlify-jekyll]: https://www.netlify.com/blog/2015/10/28/a-step-by-step-guide-jekyll-3.0-on-netlify/
 [gitlab-jekyll]: https://about.gitlab.com/2016/04/07/gitlab-pages-setup/
-[ci-jekyll]: https://jekyllrb.com/docs/continuous-integration/
+[ci-jekyll]: https://jekyllrb.com/docs/deployment/automated/#continuous-integration-service
 
 ### Remove the Unnecessary
 

@@ -42,7 +42,7 @@
       <ul class="uk-navbar-nav">
         <li>{% include search_box.html %}</li>
         <li>
-          <a href="#" uk-icon="icon: menu"></a>
+          <button class="uk-navbar-toggle" uk-icon="icon: menu"></button>
           <div class="uk-navbar-dropdown uk-border-rounded uk-background-muted">
             <ul class="uk-nav uk-navbar-dropdown-nav uk-text-right" uk-scrollspy="target: > li; cls:uk-animation-slide-right; delay: 300; repeat: true">
               {% for link in site.data.navigation.mobile %}
