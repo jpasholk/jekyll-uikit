@@ -75,7 +75,7 @@ locale: en_US
 
 to_top: true
 
-disqus: ""
+# disqus: ""
 twitter: "jpasholk"
 github: "jpasholk"
 buymeacoffee: "jpasholk"
