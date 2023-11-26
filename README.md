@@ -2,6 +2,7 @@
 
 [![GitHub forks](https://img.shields.io/github/forks/jpasholk/jekyll-uikit.svg?style=social&label=Fork)](https://github.com/jpasholk/jekyll-uikit/fork/)
 [![GitHub stars](https://img.shields.io/github/stars/jpasholk/jekyll-uikit.svg?style=social&label=Stars)](https://github.com/jpasholk/jekyll-uikit/stargazers)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a4510ba3-c684-4f71-b3d2-41f21caf68c8/deploy-status)](https://app.netlify.com/sites/ornate-cat-c7fcc8/deploys)
 [![license](https://img.shields.io/github/license/jpasholk/jekyll-uikit.svg)](https://github.com/jpasholk/jekyll-uikit/blob/master/LICENSE.txt)
 [![GitHub last commit](https://img.shields.io/github/last-commit/jpasholk/jekyll-uikit.svg)](https://github.com/jpasholk/jekyll-uikit/commits/master)
 [![GitHub issues](https://img.shields.io/github/issues-raw/jpasholk/jekyll-uikit.svg)](https://github.com/jpasholk/jekyll-uikit/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
