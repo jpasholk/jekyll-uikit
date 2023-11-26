@@ -17,14 +17,6 @@
 
 ![Jekyll-UiKit](/jekyll-uikit-screenshot.png)
 
-## Blog Page
-
-![Jekyll-UiKit Blog](/docs/Blog-Screenshot.png)
-
-## Archive Page by Tag
-
-![Jekyll-UiKit Archives](/docs/Archives-Screenshot.png)
-
 Built with [UiKit](https://getuikit.com/) by [YooTheme](https://yootheme.com/), with an elegant homepage, a blog and archive pages, and lighting fast search with Algolia.
 
 # Features
@@ -75,7 +67,7 @@ Or install it yourself as:
 
 ## Usage
 
-* You can find instructions on using this theme in the [blog](https://jekyll-uikit.jpasholk.com/blog/) of the demo site.
+* You can find instructions on using this theme in the [blog](https://jekyll-uikit.jpshlk.com/blog/) of the demo site.
 
 ## Contributing
 
