@@ -11,7 +11,7 @@
 [![Gem](https://img.shields.io/gem/v/jekyll-uikit.svg)](https://rubygems.org/gems/jekyll-uikit)
 [![Open Source Helpers](https://www.codetriage.com/jpasholk/jekyll-uikit/badges/users.svg)](https://www.codetriage.com/jpasholk/jekyll-uikit)
 
-[Live Demo](https://jekyll-uikit.jpasholk.com)
+[Live Demo](https://jekyll-uikit.jpshlk.com)
 
 ## Home Page
 
