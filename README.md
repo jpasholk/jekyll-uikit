@@ -15,7 +15,7 @@
 
 ## Home Page
 
-![Jekyll-UiKit](/Screenshot.png)
+![Jekyll-UiKit](/jekyll-uikit-screenshot.png)
 
 ## Blog Page
 
